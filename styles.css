@@ -101,6 +101,9 @@ body{
 .home_image img {
     max-width: 450px;
     margin-right: -20px;
+    border-radius: 200px;
+    border: 2px solid #0ef;
+    box-shadow: 0 0 40px rgb(77, 222, 20);
     opacity: 0;
     animation: zoomIn 1s ease forwards;
     animation-delay: 2s;
