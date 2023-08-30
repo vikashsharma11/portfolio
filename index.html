@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vikash Sharma</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -10,28 +10,41 @@
 </head>
 <body>
    <header class="header">
-    <a href="#" class="logo">Portfolio.</a>
+    <a href="#" class="logo">Hello, World!</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
     <nav class="navbar">
-        <a href="#" style ="--i:1;" class="active">Home</a>
-        <a href="#" style ="--i:2;">About</a>
-        <a href="#" style ="--i:3;">Skills</a>
-        <a href="#" style ="--i:4;">Projects</a>
-        <a href="#" style ="--i:5;">Contact</a>
+        <a href="#home" style ="--i:1;" class="active">Home</a>
+        <a href="#about" style ="--i:2;">About</a>
+        <a href="#education" style ="--i:3;">Education</a>
+        <a href="#skills" style ="--i:4;">Skills</a>
+        <a href="#project" style ="--i:5;">Project</a>
+        <a href="#contact" style ="--i:6;">Contact</a>
+
+        <span class="active-nav"></span>
+
     </nav>
    </header>
-   <section class="home">
+   <section class="home" id="home">
     <div class="home-content">
-        <h3>Hello,Welcome It's Me</h3>
+        <h3>It's Me</h3>
         <h1>Vikash Sharma</h1>
         <h3>And I am a <span class="multiple-text"></span></h3>
-        <p></p>
+        <p>As an experienced Dot Net Core developer, my objective is to provide top-notch software development services to clients seeking robust and efficient solutions. I aim to deliver tailored, high-quality applications that align with my client's needs, budget, and timeline. Through effective communication, a commitment to excellence, and a customer-centric approach, I strive to build lasting relationships with clients and deliver exceptional value in the world of software development.
+
+
+
+
+        </p>
         <div class="Social_Media">
-            <a href="#" style="--i:7"><i class='bx bxl-facebook-circle'></i></a>
-            <a href="#" style="--i:8"><i class='bx bxl-twitter' ></i></a>
-            <a href="#" style="--i:9"><i class='bx bxl-instagram' ></i></a>
-            <a href="#" style="--i:10"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100017871422445" style="--i:7"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://twitter.com/JrVikash" style="--i:8"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.instagram.com/thisisvikash_/" style="--i:9"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/vikash-sharma-618b87179" style="--i:10"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://leetcode.com/xuber0786/" style="--i:11"><i class='bx bx-code'></i></a>
+            <a href="https://github.com/vikashsharma11" style="--i:12"><i class='bx bxl-github'></i></a>
+           
         </div>
-        <a href="#" class="btn">Download Cv</a>
+        <a href="https://drive.google.com/file/d/1DE0JQpnm9p0CHR_WGF08aKEu1VFjo4WR/view?usp=sharing" class="btn">Download Cv</a>
     </div>
     <div class="home_image">
         <img src="home_image.jpg" alt="">
@@ -40,13 +53,14 @@
    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
    <script>
         var typed = new Typed(".multiple-text",{
-            strings: [".Net Core Developer","MERN Stack Developer","Coder"],
+            strings: [".Net Core Developer","Coder"],
             typeSpeed: 90,
             backSpeed: 90,
             backDelay: 1000,
             loop: true
 
         })
+       
 
    </script>
 
@@ -58,10 +72,8 @@
         </div>
 
         <div class="about-content">
-            <h3>.Net Developer</h3>
-            <p>Hello, I'm Vikash, a passionate .NET developer with a strong background in creating robust and scalable software solutions. 
-                I hold a degree  and have 2 of experience in the field. My expertise lies in developing web and desktop applications using the .NET framework, and I'm well-versed in languages like C# and VB.NET. 
-                I have a track record of successfully delivering projects on time and exceeding client expectations</p>
+            <h3>Sofware Developer | Ex-GAVSian | Aspiring MERN Stack Developer | Leetcoder</h3>
+            <p>Hello, my name is Vikash, a passionate software developer with a strong background in creating robust and scalable software solutions. I hold a B.Tech degree in Computer Science & Engineering and have 1.8 years of experience in the field. My expertise lies in developing web and desktop applications using the .NET framework, and I'm proficient in languages like C#, Python, JAVA, SQL, and ASP.NET. I am also working on MERN technology to enhance my web development skills. I have a track record of successfully delivering projects on time and exceeding client expectations.</p>
             <div class="btn-box btns">
                 <a href="#" class="btn">Read More</a>
             </div>
@@ -78,33 +90,33 @@
 
     <div class="education-row">
         <div class="education-column">
-            <h3 class="tittle">Education</h3>
+            <h3 class="title">Education</h3>
 
 
             <div class="education-box">
                 <div class="education-content">
                     <div class="content">
-                        <div class="year"><i class='bx bxs-calendar'></i>2017 - 2018</div>
-                        <h3>B.tech - University</h3>
-                        <p> i am btech pass out student who have wide knowledge of computer science and experience in software development</p>
+                        <div class="year"><i class='bx bxs-calendar'></i>2017 - 2021</div>
+                        <h3>B.tech -  <a href="https://mrsptu.ac.in/">Maharaja Ranjit Singh Punjab Technical University</a></h3>
+                        <p>Computer Science & Engineering</p>
 
                     </div>
                 </div>
 
                 <div class="education-content">
                     <div class="content">
-                        <div class="year"><i class='bx bxs-calendar'></i>2018 - 2019</div>
-                        <h3>B.tech - University</h3>
-                        <p> i am btech pass out student who have wide knowledge of computer science and experience in software development</p>
+                        <div class="year"><i class='bx bxs-calendar'></i>2015- 2016</div>
+                        <h3>Higher Secondary School - <a href="https://lbsschool.in/">Lal Bahadur Shastri Sr.Sec. School</a></h3>
+                        <p>Mathematics & Science</p>
 
                     </div>
                 </div>
 
                 <div class="education-content">
                     <div class="content">
-                        <div class="year"><i class='bx bxs-calendar'></i>2019 - 2020</div>
-                        <h3>B.tech - University</h3>
-                        <p> i am btech pass out student who have wide knowledge of computer science and experience in software development</p>
+                        <div class="year"><i class='bx bxs-calendar'></i>2013 - 2014</div>
+                        <h3>High School - <!--<a href="https://www.facebook.com/KPSBhind/"></a>-->Kishori Public H.S.School Bhind</h3>
+                        <p> Science</p>
 
                     </div>
                 </div>
@@ -117,33 +129,33 @@
         </div>
 
         <div class="education-column">
-            <h3 class="tittle">Experience</h3>
+            <h3 class="title">Experience</h3>
 
 
             <div class="education-box">
                 <div class="education-content">
                     <div class="content">
-                        <div class="year"><i class='bx bxs-calendar'></i>2017 - 2018</div>
-                        <h3>Web Developer - GAVS TECH</h3>
-                        <p> i am btech pass out student who have wide knowledge of computer science and experience in software development</p>
+                        <div class="year"><i class='bx bxs-calendar'></i>2022 - 2023</div>
+                        <h3>Software Engineer - GAVS TECH</h3>
+                        <p>In Gavs I worked on asp.net and .Net MVC | Pune MH</p>
 
                     </div>
                 </div>
 
                 <div class="education-content">
                     <div class="content">
-                        <div class="year"><i class='bx bxs-calendar'></i>2018 - 2019</div>
-                        <h3>Web Developer - GAVS TECH</h3>
-                        <p> i am btech pass out student who have wide knowledge of computer science and experience in software development</p>
+                        <div class="year"><i class='bx bxs-calendar'></i>2021 - 2022</div>
+                        <h3>Database Engineer - Fair Advisory</h3>
+                        <p>In Fair Advisory I worked on SQL | Hyderabad </p>
 
                     </div>
                 </div>
 
                 <div class="education-content">
                     <div class="content">
-                        <div class="year"><i class='bx bxs-calendar'></i>2019 - 2020</div>
-                        <h3>Web Developer - GAVS TECH</h3>
-                        <p> i am btech pass out student who have wide knowledge of computer science and experience in software development</p>
+                        <div class="year"><i class='bx bxs-calendar'></i>Dec2020 - jan2021</div>
+                        <h3>Machine Learnig Intern - Spark Foundation</h3>
+                        <p> Worked on Supervised Learning And Unsupervised Learning</p>
 
                     </div>
                 </div>
@@ -161,7 +173,7 @@
    
    <!--Skills section-->
 
-   <sections class="skills" id="skills">
+   <section class="skills" id="skills">
     <h2 class="heading">My <span>Skills</span></h2>
     <div class="skills-row">
         <div class="skills-column">
@@ -185,7 +197,11 @@
                     </div>
 
                     <div class="progress">
-                        <h3>C#<span>60%</span></h3>
+                        <h3>C#<span>65%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Python<span>85%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
                 </div>
@@ -198,7 +214,7 @@
             <div class="skills-box">
                 <div class="skills-content">
                     <div class="progress">
-                        <h3>DOT NET<span>56%</span></h3>
+                        <h3>Microsoft SQL Server<span>56%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
 
@@ -216,6 +232,10 @@
                         <h3>DOT NET Core<span>65%</span></h3>
                         <div class="bar"><span></span></div>
                     </div>
+                    <div class="progress">
+                        <h3>MERN<span>45%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -224,7 +244,7 @@
 
 
     </div>
-   </sections>
+   </section>
 
    <!--contact section-->
    <section class="contact" id="contact">
@@ -237,7 +257,7 @@
                 <span class="focus"></span>
             </div>
             <div class="input-field">
-                <input type="text" placeholder="Email Address" required>
+                <input type="email" placeholder="Email Address" required>
                 <span class="focus"></span>
             </div>
 
@@ -280,6 +300,8 @@
         <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
     </div>
    </footer>
+
+   <script src="script.js"></script>
    
 </body>
 </html>
